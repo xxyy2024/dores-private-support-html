@@ -10,6 +10,8 @@
 - 运行平台：macOS 14 及以上版本  
 - 获取渠道：Mac App Store  
 
+本产品面向的一般用户群体不设特定年龄限制。
+
 ## 二、提供的技术支持内容
 
 ### 1. 安装与启动问题
@@ -100,6 +102,8 @@ This document applies to:
 - Product name: Dores Menubar App (Dores Swift Menubar)  
 - Platform: macOS 14 or later  
 - Distribution channels: Mac App Store  
+
+The App is intended for a general audience with no specific age restriction.
 
 ## 2. What We Support
 
@@ -192,6 +196,8 @@ We may update this Technical Support Statement from time to time based on change
 - 執行平台：macOS 14 及以上版本  
 - 取得管道：Mac App Store  
 
+本產品面向的一般使用者族群，不設特定年齡限制。
+
 ## 二、提供的技術支援內容
 
 ### 1. 安裝與啟動問題
@@ -268,4 +274,3 @@ We may update this Technical Support Statement from time to time based on change
 ## 六、本說明之更新與變更
 
 我們可能因功能調整、服務能力變化等因素不定期更新本技術支援說明。更新後的內容將透過應用或相關管道公布。若您繼續使用本應用或繼續尋求技術支援，即視為同意更新後的說明。
-
