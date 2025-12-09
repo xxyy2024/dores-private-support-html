@@ -29,7 +29,6 @@
 
 ### 4. 网络请求信息
 
-- IP 地址、请求时间、错误码等基础网络信息，用于保障网络服务安全稳定。  
 - 用于聊天与 VIP 校验的必要信息（如经脱敏处理的用户标识、聊天文本、VIP 状态等）。
 
 ## 二、我们如何使用您的信息
@@ -134,7 +133,6 @@ We only collect information necessary to provide core functionality, maintain se
 
 ### 1.4 Network Request Information
 
-- Basic network data such as IP address, request timestamps and error codes to maintain the security and stability of our services;  
 - Necessary request data for chat and VIP validation (for example, de-identified user IDs, chat text, VIP status).
 
 ## 2. How We Use Your Information
@@ -237,7 +235,6 @@ If you have any questions, comments or requests regarding this Privacy Policy or
 
 ### 4. 網路請求資訊
 
-- IP 位址、請求時間、錯誤代碼等基礎網路資訊，用於維護服務安全與穩定；  
 - 用於聊天與 VIP 驗證的必要資訊（例如經去識別化處理的使用者識別、聊天文字、VIP 狀態等）。
 
 ## 二、我們如何使用您的資訊
