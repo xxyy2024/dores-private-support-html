@@ -64,7 +64,7 @@
 
 - 系统版本（例如 macOS 14.x）；  
 - 应用版本号（在“关于”或应用信息中查看）；  
-- 用户 ID（可在菜单栏“用户信息”中查看）；  
+- Apple 登录信息（菜单栏“Apple 登录信息”中查看 Apple Sign-In ID）；  
 - 问题复现步骤（尽可能详细）；  
 - 相关截图或录屏（如有）。
 
@@ -157,7 +157,7 @@ Please include the following information where possible:
 
 - Your system version (e.g. macOS 14.x);  
 - The App version (see “About” or app info);  
-- Your user ID (you can find it in the “User Info” menu item in the menubar);  
+- Apple Sign-In info (find the Apple Sign-In ID under the “Apple Sign-In Info” menu item in the menubar);  
 - Steps to reproduce the issue (as detailed as possible);  
 - Relevant screenshots or screen recordings, if available.
 
