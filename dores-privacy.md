@@ -25,7 +25,7 @@
 ### 3. 设备、截图与日志信息
 
 - **设备信息**：包括设备型号、操作系统版本、应用版本、语言设置等，用于适配界面和定位问题。
--  **截图图片**：当您使用截图功能时，所选屏幕区域的图片仅会存储在本地沙盒路径：~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images，不会自动上传或共享，除非您主动通过聊天窗口发送。
+ - **截图图片**：截图图片不会自动保存，只有在您主动选择“保存”操作时，图片才会被保存到您指定的位置。若您将截图用于聊天发送，图片会作为聊天记录中的图片信息存储在本地沙盒路径：~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images，不会自动上传或共享，除非您主动通过聊天窗口发送。
 - **运行与错误日志**：本应用会在本地生成调试日志（例如写入应用沙盒目录下的日志文件），记录应用运行状态、网络连接情况、部分错误信息等，用于排查问题和改进性能。日志和截图图片默认仅保存在本地，不会自动上传到服务器，只有在您主动向我们发送或授权上传时，我们才会获取相关内容。
 
 ### 4. 网络请求信息
@@ -130,7 +130,7 @@ We only collect information necessary to provide core functionality, maintain se
 ### 1.3 Device and Log Information
 
 - **Device information**: Device model, operating system version, app version, language settings, and similar technical details.
-- **Screenshot images**: When you use the screenshot feature, the selected screen area image is stored only locally at ~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images. Images are not uploaded or shared automatically, unless you actively send them via chat.
+- **Screenshot images**: Screenshot images are not saved automatically. Only when you actively choose to save, the image will be stored at your specified location. If you send the screenshot in chat, the image will be stored as a chat attachment at ~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images. Images are not uploaded or shared automatically, unless you actively send them via chat.
 - **Runtime and error logs**: The App may write diagnostic logs locally (for example, to a log file under the app sandbox directory), recording runtime status, network connectivity and error messages to help troubleshoot issues and improve performance. Logs and screenshot images are stored on your device by default and are not uploaded automatically. We only receive them if you choose to share or upload them when seeking support.
 
 ### 1.4 Network Request Information
@@ -148,7 +148,7 @@ We only collect information necessary to provide core functionality, maintain se
 
 ### 3.1 Storage Method and Retention Period
 
-**Local storage**: Logs, screenshot images, chat images, and cache files are stored on your device at ~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images and can be removed by system tools or by uninstalling the App.
+**Local storage**: Logs, screenshot images, chat images, and cache files are stored on your device at ~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images. Screenshot images are not saved automatically, only when you actively save or send in chat. You can remove them by system tools or by uninstalling the App.
 **Server storage**: Necessary account, purchase and chat information is stored on our servers to synchronize states and provide services. Chat images are not uploaded or stored on the server, only kept locally.
 - **Retention period**: We retain information only for as long as needed to fulfill the purposes described in this Policy, unless a longer retention period is required or permitted by law. After that, we will delete or anonymize the data.
 
@@ -233,7 +233,7 @@ If you have any questions, comments or requests regarding this Privacy Policy or
 ### 3. 裝置與日誌資訊
 
 - **裝置資訊**：包括裝置型號、作業系統版本、應用程式版本、語言設定等，用於介面適配與問題定位。
-- **截圖圖片**：當您使用截圖功能時，所選螢幕區域的圖片僅會儲存在本地沙盒路徑 ~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images，不會自動上傳或共享，除非您主動透過聊天視窗傳送。
+- **截圖圖片**：截圖圖片不會自動儲存，僅在您主動選擇「儲存」操作時，圖片才會被儲存到您指定的位置。若您將截圖用於聊天發送，圖片會作為聊天記錄中的附件儲存在本地沙盒路徑 ~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images，不會自動上傳或共享，除非您主動透過聊天視窗傳送。
 - **執行與錯誤日誌**：本應用可能在本機產生診斷日誌（例如寫入應用沙盒目錄下的日誌檔案），記錄應用執行狀態、網路連線情況及部分錯誤資訊，用於問題排除與效能改善。日誌與截圖圖片預設僅儲存在您的裝置上，不會自動上傳至伺服器；僅在您主動傳送或授權上傳時，我們才會取得相關內容。
 
 ### 4. 網路請求資訊
