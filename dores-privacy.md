@@ -22,10 +22,11 @@
 
 > 我们不直接获取也不会保存您的银行卡号、支付密码等敏感支付信息，相关信息仅由 Apple 及其支付渠道处理。
 
-### 3. 设备与日志信息
+### 3. 设备、截图与日志信息
 
-- **设备信息**：包括设备型号、操作系统版本、应用版本、语言设置等，用于适配界面和定位问题。  
-- **运行与错误日志**：本应用会在本地生成调试日志（例如写入应用沙盒目录下的日志文件），记录应用运行状态、网络连接情况、部分错误信息等，用于排查问题和改进性能。日志默认仅保存在本地，不会自动上传到服务器，只有在您主动向我们发送或授权上传时，我们才会获取相关内容。
+- **设备信息**：包括设备型号、操作系统版本、应用版本、语言设置等，用于适配界面和定位问题。
+**截图图片**：当您使用截图功能时，所选屏幕区域的图片仅会存储在本地沙盒路径：~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images，不会自动上传或共享，除非您主动通过聊天窗口发送。
+- **运行与错误日志**：本应用会在本地生成调试日志（例如写入应用沙盒目录下的日志文件），记录应用运行状态、网络连接情况、部分错误信息等，用于排查问题和改进性能。日志和截图图片默认仅保存在本地，不会自动上传到服务器，只有在您主动向我们发送或授权上传时，我们才会获取相关内容。
 
 ### 4. 网络请求信息
 
@@ -42,8 +43,8 @@
 
 ### 1. 存储方式与期限
 
-- **本地存储**：应用运行日志、缓存等存储在您的设备本地，您可通过系统工具或卸载应用进行删除。  
-- **服务器存储**：与账号、购买、聊天相关的必要信息会存储在服务器，用于同步状态与提供服务。  
+**本地存储**：应用运行日志、截图图片、聊天记录中的图片、缓存等均存储在您的设备本地沙盒路径（图片路径为 ~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images），您可通过系统工具或卸载应用进行删除。
+**服务器存储**：与账号、购买、聊天相关的必要信息会存储在服务器，用于同步状态与提供服务。聊天记录中的图片不会上传或保存至服务器，仅保留在本地。
 - **保存期限**：我们仅在实现本政策所述目的所必需的期限内保存数据，超出期限后将删除或匿名化处理，法律法规另有要求的除外。
 
 ### 2. 安全措施
@@ -63,7 +64,7 @@
 
 - **实现核心功能所必需**：  
   - 与 Apple 共享内购相关必要信息，用于分发应用、完成支付和验证交易；  
-  - 与第三方大模型/推理服务提供方共享必要信息（如聊天内容及上下文），用于生成智能回复。  
+  - 与第三方大模型/推理服务提供方共享必要信息（如聊天内容及上下文），用于生成智能回复。截图图片仅在您主动通过聊天窗口发送时，才会上传用于聊天功能，不会自动共享。
 - 经您明确同意，与指定的第三方共享；  
 - 根据法律法规或有权机关要求提供。
 
@@ -128,8 +129,9 @@ We only collect information necessary to provide core functionality, maintain se
 
 ### 1.3 Device and Log Information
 
-- **Device information**: Device model, operating system version, app version, language settings, and similar technical details.  
-- **Runtime and error logs**: The App may write diagnostic logs locally (for example, to a log file under the app sandbox directory), recording runtime status, network connectivity and error messages to help troubleshoot issues and improve performance. Logs are stored on your device by default and are not uploaded automatically. We only receive them if you choose to share or upload them when seeking support.
+- **Device information**: Device model, operating system version, app version, language settings, and similar technical details.
+- **Screenshot images**: When you use the screenshot feature, the selected screen area image is stored only locally at ~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images. Images are not uploaded or shared automatically, unless you actively send them via chat.
+- **Runtime and error logs**: The App may write diagnostic logs locally (for example, to a log file under the app sandbox directory), recording runtime status, network connectivity and error messages to help troubleshoot issues and improve performance. Logs and screenshot images are stored on your device by default and are not uploaded automatically. We only receive them if you choose to share or upload them when seeking support.
 
 ### 1.4 Network Request Information
 
@@ -146,8 +148,8 @@ We only collect information necessary to provide core functionality, maintain se
 
 ### 3.1 Storage Method and Retention Period
 
-- **Local storage**: Logs and cache files are stored on your device and can usually be removed by system tools or by uninstalling the App.  
-- **Server storage**: Necessary account, purchase and chat information is stored on our servers to synchronize states and provide services.  
+**Local storage**: Logs, screenshot images, chat images, and cache files are stored on your device at ~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images and can be removed by system tools or by uninstalling the App.
+**Server storage**: Necessary account, purchase and chat information is stored on our servers to synchronize states and provide services. Chat images are not uploaded or stored on the server, only kept locally.
 - **Retention period**: We retain information only for as long as needed to fulfill the purposes described in this Policy, unless a longer retention period is required or permitted by law. After that, we will delete or anonymize the data.
 
 ### 3.2 Security Measures
@@ -230,8 +232,9 @@ If you have any questions, comments or requests regarding this Privacy Policy or
 
 ### 3. 裝置與日誌資訊
 
-- **裝置資訊**：包括裝置型號、作業系統版本、應用程式版本、語言設定等，用於介面適配與問題定位。  
-- **執行與錯誤日誌**：本應用可能在本機產生診斷日誌（例如寫入應用沙盒目錄下的日誌檔案），記錄應用執行狀態、網路連線情況及部分錯誤資訊，用於問題排除與效能改善。日誌預設僅儲存在您的裝置上，不會自動上傳至伺服器；僅在您主動傳送或授權上傳時，我們才會取得相關內容。
+- **裝置資訊**：包括裝置型號、作業系統版本、應用程式版本、語言設定等，用於介面適配與問題定位。
+- **截圖圖片**：當您使用截圖功能時，所選螢幕區域的圖片僅會儲存在本地沙盒路徑 ~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images，不會自動上傳或共享，除非您主動透過聊天視窗傳送。
+- **執行與錯誤日誌**：本應用可能在本機產生診斷日誌（例如寫入應用沙盒目錄下的日誌檔案），記錄應用執行狀態、網路連線情況及部分錯誤資訊，用於問題排除與效能改善。日誌與截圖圖片預設僅儲存在您的裝置上，不會自動上傳至伺服器；僅在您主動傳送或授權上傳時，我們才會取得相關內容。
 
 ### 4. 網路請求資訊
 
@@ -248,8 +251,8 @@ If you have any questions, comments or requests regarding this Privacy Policy or
 
 ### 1. 儲存方式與期間
 
-- **本機儲存**：應用執行日誌、快取等儲存在您的裝置本機，您可透過系統工具或解除安裝應用加以刪除；  
-- **伺服器儲存**：與帳號、購買、聊天相關的必要資訊會儲存在伺服器，用於同步狀態與提供服務；  
+**本機儲存**：應用執行日誌、截圖圖片、聊天記錄中的圖片、快取等均儲存在您的裝置本地沙盒路徑（圖片路徑為 ~/Library/Group Containers/group.com.dores.app/Chat/Attachments/Images），您可透過系統工具或解除安裝應用加以刪除；
+**伺服器儲存**：與帳號、購買、聊天相關的必要資訊會儲存在伺服器，用於同步狀態與提供服務。聊天記錄中的圖片不會上傳或儲存至伺服器，僅保留在本地。
 - **保存期間**：我們僅在達成本政策所述目的所必需的期間內保存資料，逾期後將刪除或匿名化處理，法律法規另有規定者除外。
 
 ### 2. 安全措施
